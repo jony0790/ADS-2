@@ -1,7 +1,7 @@
 // Copyright 2025
 
 #include "alg.h"
-
+#include <cstdint>
 double pown(double value, uint16_t n) {
     double result = 1.0;
 
