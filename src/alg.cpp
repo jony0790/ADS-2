@@ -2,7 +2,14 @@
 
 #include "alg.h"
 
+double pown(double value, uint16_t n) { return 1.0; }
+uint64_t fact(uint16_t n) { return 1; }
+double calcItem(double x, uint16_t n) { return 1.0; }
+double expn(double x, uint16_t count) { return 1.0; }
+double sinn(double x, uint16_t count) { return 1.0; }
+double cosn(double x, uint16_t count) { return 1.0; }
 double pown(double value, uint16_t n) {
+    
     double result = 1.0;
 
     for (uint16_t i = 0; i < n; ++i) {
